@@ -47,11 +47,13 @@ Evaluate the Linear Regression by comparing its performance against Lasso and Ri
 
 The Results show that if the car price range is near 20k the Predictions are near the same. Whereas if the price of the car is at the range of 40k, the prediction came down to 22k. Overall both the Linear, Ridge and Lasso model performs the same as the optimal alpha value is 0.001 which means that it is closer to 0 leaning towards Linear Regression. 
 
-Scenario 2: User Alpha value 1 as Hyper Parameter with Odometer and Age against the price
-![image](https://github.com/user-attachments/assets/649751e8-a39c-4a8b-8935-60b036727393)
+Scenario 2: User Alpha value 200 as Hyper Parameter with Odometer and Age against the price, We see that Ridge and Linear models perform better than the Lasso. 
+
+![image](https://github.com/user-attachments/assets/780d70a6-cf06-4804-9a5a-5625663334bb)
 
 
-![image](https://github.com/user-attachments/assets/3674e91b-8420-43b0-ad1b-8aab5f50c38f)
+
+![image](https://github.com/user-attachments/assets/dc761886-dc3f-4bd1-96bf-122fc3f8106b)
 
 
 
