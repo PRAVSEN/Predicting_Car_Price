@@ -64,3 +64,6 @@ We see that the Testing RMSE is lower than Training to our surprise
 ![image](https://github.com/user-attachments/assets/5b59d1c0-093d-4ece-9cd4-340e87811142)
 
 
+GridSearch CV in combination with Lasso or Ridge helps us to point to the Optimal Value of Alpha. It recommends 20 for Ridge and 5 on Lasso.
+
+Overall Conclusion is that the more features we fit, the models perform better, however it can lead to OverFitting scenarios that one needs to be cautious. Based on the PCA analysis we see that fitting 6 features would be ideal
