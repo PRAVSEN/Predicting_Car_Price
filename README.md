@@ -67,3 +67,6 @@ We see that the Testing RMSE is lower than Training to our surprise
 GridSearch CV in combination with Lasso or Ridge helps us to point to the Optimal Value of Alpha. It recommends 20 for Ridge and 5 on Lasso.
 
 Overall Conclusion is that the more features we fit, the models perform better, however it can lead to OverFitting scenarios that one needs to be cautious. Based on the PCA analysis we see that fitting 6 features would be ideal. Anthing beyond that would not make much impact on the Car Price Prediction
+
+![image](https://github.com/user-attachments/assets/ea485c19-bb60-4249-ab28-c4f9409e99d4)
+
