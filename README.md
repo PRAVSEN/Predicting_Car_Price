@@ -76,8 +76,10 @@ When we increase the alpha to fine tune, we see that the Lasso or Ridge, identif
 
 The Advantages of using Gridsearch is that it identifies the optimum alpha (hyperparameter value) for the model.  Based on the running GridSearch CV and Ridge and Lasso. It suggests that the Optimal Value for the Alpha that is the hyperparameter value as **5** for **Ridge** and **20** for **Lasso**. 
 
-This means that Ridge uses 5 as a standardization value and drive other features or coefficients towards zero, while Lasso optimal model is aggressive in terms of feature selection. 
+This means that Ridge uses 5 as a standardization value and drive other features or coefficients towards zero, while Lasso optimal model is aggressive in terms of feature selection.  
+
+If we further clean the data and reduce it to 50k rows, removing all VIN duplicates, nulls and other values. We can see that Lasso performs better in the alpha range of 100 when compared to Ridge. 
 
 **Conclusion**
 
-In Conclusion, the Ridge and Lasso Model perform very close in both Training and Test Model when compared to Liner regression.  The models predict two main features that drive the price of the car. 
+In Conclusion, the Ridge and Lasso Model perform very close in both Training and Test Model when compared to Liner regression.  Extractig the non zero coefficients from the Lasso Model, we could see that **Condition, Tranmission, Fuel, Type, Year and Odometer drive the price of the car**
