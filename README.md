@@ -81,7 +81,7 @@ This means that Ridge uses 5 as a standardization value and drive other features
 
 **Conclusion**
 
-In Conclusion, the Ridge and Lasso Model perform very close in both Training and Test Model when compared to Liner regression with 200k data set. However, If we further clean the data and reduce it to 50k rows, removing all VIN duplicates, nulls and other values. We can see that Lasso performs better in the alpha range of 100 when compared to Ridge. 
+In Conclusion, the Ridge and Lasso Model perform very close in both Training and Test Model when compared to Liner regression with 200k data set. However, If we further clean the data and reduce it to 50k rows, removing all VIN duplicates, nulls and other values. We can see that Lasso performs better in the alpha range of 1 when compared to Ridge
 
 
 Finally Extractig the non zero coefficients from the Lasso Model reveal that, **Condition, Tranmission, Fuel, Type, Year and Odometer drive the price of the car**
