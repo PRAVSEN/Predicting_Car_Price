@@ -7,32 +7,33 @@ _**Objective of this excercse is to build a model that determines the key compon
 
 **First Step is to Analyze the data (Cleansing Data):**
 
-Remove Duplicates. 
+1. Remove Duplicates. 
   NOTE: I did not remove duplicates based on VIN, if i did, that takes away 60% of the data. Infact i dropped the VIN column considering it has incorrect values with duplicate entries.
-Drop Size columns as it does not have values more than 30%
-Convert Year to Age
-Identify Outliers, using Percentile and considering 99% Percentile
+2. Drop Size columns as it does not have values more than 30%
+3. Convert Year to Age
+4. Identify Outliers, using Percentile and considering 99% Percentile
 
 **Steps for understanding the data (EDA Techniques Used):**
 
-Univariate Anlaysis - Price Column - Understand its range
-Analysis on the Other Numerical - Understand their relationship with Price
-Bivariate Analysis - Perform Histograms and Pairplot Analysis on Numerical Columns - Visual Represenation of the relationship between the features with Price
-Detailed analysis on Categorical Columns and their relationship with the Price Column
-Correlation Analysis on numerical Columns
+1. Univariate Anlaysis - Price Column - Understand its range
+2. Analysis on the Other Numerical - Understand their relationship with Price
+3. Bivariate Analysis - Perform Histograms and Pairplot Analysis on Numerical Columns - Visual Represenation of the relationship between the features with Price
+4. Detailed analysis on Categorical Columns and their relationship with the Price Column
+5. Correlation Analysis on numerical Columns
 
 **Data Preparation:**
 
-Perform Feature Selection using PCA 
-Convert Year to Age
-Categorical Columns to numerical using One Hot Encoding
-Using Percentile methods to filter out Outliers
+1. Perform Feature Selection using PCA 
+2. Convert Year to Age
+3. Categorical Columns to numerical using One Hot Encoding
+4. Using Percentile methods to filter out Outliers
+5. Removing High Cardinality categorical features such as Manufacturer, Model and state
 
 **Modelling**
 
-Performing Linear Regression, Lasso and Ridge models
-Provide Density Plot on the features
-Scale the data using Standard Scaler
+1. Performing Linear Regression, Lasso and Ridge models
+2. Provide Density Plot on the features
+3. Scale the data using Standard Scaler
 
 **Evaluation**
 
