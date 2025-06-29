@@ -63,10 +63,16 @@ We see that the Testing RMSE is lower than Training to our surprise
 
 ![image](https://github.com/user-attachments/assets/5b59d1c0-093d-4ece-9cd4-340e87811142)
 
-
 GridSearch CV in combination with Lasso or Ridge helps us to point to the Optimal Value of Alpha. It recommends 20 for Ridge and 5 on Lasso.
 
 Overall Conclusion is that the more features we fit, the models perform better, however it can lead to OverFitting scenarios that one needs to be cautious. Based on the PCA analysis we see that fitting 6 features would be ideal. Anthing beyond that would not make much impact on the Car Price Prediction
 
 ![image](https://github.com/user-attachments/assets/ea485c19-bb60-4249-ab28-c4f9409e99d4)
+
+When we increase the alpha to fine tune, we see that the Lasso or Ridge, identifies the features that are important, and reduces the cooefficient for other colums. Ridge reduces towards zero, while the Lasso complete reduces them to zero removing the features from being considered to improve the mode performance.
+
+The Advantages of using Gridsearch is that it identifies the optimum alpha (hyperparameter value) for the model.  Based on the running GridSearch CV and Ridge and Lasso. It suggests that the Optimal Value for the Alpha that is the hyperparameter value as 5 for Ridge and 20 for Lasso. 
+
+This means that Ridge uses 5 as a standardization value and drive other features or coefficients towards zero, while Lasso optimal model is aggressive in terms of feature selection. 
+
 
