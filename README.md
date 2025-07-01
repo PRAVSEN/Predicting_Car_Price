@@ -23,10 +23,10 @@ Objective of this excercse is to build a model that determines the key component
 
 **Data Preparation:**
 
-1. 2. Convert Year to Age
-3. Categorical Columns to numerical using One Hot Encoding
-4. Using Percentile methods to filter out Outliers
-5. Removing High Cardinality categorical features such as Manufacturer, Model and state
+1. Convert Year to Age
+2. Categorical Columns to numerical using One Hot Encoding
+3. Using Percentile methods to filter out Outliers
+4. Removing High Cardinality categorical features such as Manufacturer, Model and state
 
 **Modelling**
 
