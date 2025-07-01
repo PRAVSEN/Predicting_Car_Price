@@ -23,17 +23,22 @@ Objective of this excercse is to build a model that determines the key component
 
 **Data Preparation:**
 
-1. Perform Feature Selection using PCA 
-2. Convert Year to Age
+1. 2. Convert Year to Age
 3. Categorical Columns to numerical using One Hot Encoding
 4. Using Percentile methods to filter out Outliers
 5. Removing High Cardinality categorical features such as Manufacturer, Model and state
 
 **Modelling**
 
-1. Performing Linear Regression, Lasso and Ridge models
-2. Provide Density Plot on the features
-3. Scale the data using Standard Scaler
+1. Feature Dimension using PCA
+2. Split the Train the Test Data
+3. Polynomial Feature Transfomation with degree 3
+4. Scale the data using Standard Scaler
+5. Provide Density Plot on the features
+6. Performing Linear Regression, Lasso and Ridge models with various HyperParameter values
+7. Identify RMSE for the Train the Test Data
+8. Perform GridSearh CV to identify the Optimal Hyperparameter values
+9. Extract the coefficients that models derive that states the impact of them over price
 
 **Model Evaulation:**
 
