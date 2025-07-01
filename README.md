@@ -48,7 +48,7 @@ For a Polynomial Transformer value of **Degree 3**, after standardizing the data
 
 **When Alpha = 20**, We can notice that Ridge and Linear perform very close however the Lasso model performs well on the Test set which is the unseen data.  Refer to images/Alpha20.png and images/ rmse_train_vs_test_alpha20 results.
 
-**When Alpha = 200**, we can see that Lasso Model performs well with car ranges in the 7000 while Ridge performs better in the range of 1000 and 9000.  The RMSE results show that the Ridge model performs better overall in this alpha hyper parameter range.
+**When Alpha = 200**, we can see that Lasso Model performs well with car ranges in the 7000 while Ridge performs better in the range of 1000 and 9000.  The RMSE results show that the Ridge model performs better overall in this alpha hyper parameter range. Refer to images/Alpha200.png and images/ rmse_train_vs_test_alpha200 results.
 
 **Grid Search CV model** for the data set returns 50 as a optimal value for Alpha for Ridge and 200 for Lasso, that was basically also confirmed with the scenarios explained above.
 
