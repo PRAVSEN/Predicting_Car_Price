@@ -30,15 +30,33 @@ Objective of this excercse is to build a model that determines the key component
 
 **Modelling**
 
-1. Feature Dimension using PCA
-2. Split the Train the Test Data
-3. Polynomial Feature Transfomation with degree 3
-4. Scale the data using Standard Scaler
-5. Provide Density Plot on the features
-6. Performing Linear Regression, Lasso and Ridge models with various HyperParameter values
-7. Identify RMSE for the Train the Test Data
-8. Perform GridSearh CV to identify the Optimal Hyperparameter values
-9. Extract the coefficients that models derive that states the impact of them over price
+1. **Reduce Feature Dimensionality Using PCA**
+   - Principal Component Analysis applied to compress feature space while preserving variance.
+
+2. **Split the Dataset into Training and Testing Sets**
+   - Maintain data integrity by dividing it into training and test sets (e.g., 80/20 split).
+
+3. **Apply Polynomial Feature Transformation (Degree = 3)**
+   - Enhance non-linear relationships by generating polynomial terms up to degree 3.
+
+4. **Scale Features Using StandardScaler**
+   - Normalize input features to improve model convergence and performance.
+
+5. **Visualize Feature Distributions with Density Plots**
+   - Plot distribution curves to understand feature behavior and spot skewness or outliers.
+
+6. **Train Linear, Lasso, and Ridge Regression Models**
+   - Implement regularized regression models with varied hyperparameter tuning.
+
+7. **Evaluate RMSE on Training and Testing Sets**
+   - Compare model performance using Root Mean Square Error to assess accuracy.
+
+8. **Perform GridSearchCV to Optimize Hyperparameters**
+   - Use cross-validation to identify the best combination of hyperparameter values.
+
+9. **Analyze Coefficients for Feature Impact**
+   - Extract and interpret model coefficients to understand how each feature influences the target variable (price).
+
 
 **Model Evaulation:**
 
