@@ -37,7 +37,7 @@ _**Objective of this excercse is to build a model that determines the key compon
 
 **Evaluation**
 
-**Scenario 1:** Use Alpha value 1 as Hyper Parameter with Odometer and Age against the price
+**Scenario 1:** Use Alpha value 100 as Hyper Parameter with Odometer and Age against the price
 
 Evaluate the Linear Regression by comparing its performance against Lasso and Ridge models show the Optimal Value for 
 
