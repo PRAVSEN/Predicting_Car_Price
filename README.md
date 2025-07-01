@@ -39,7 +39,7 @@ Objective of this excercse is to build a model that determines the key component
 
 For a Polynomial Transformer value of **Degree 3**, after standardizing the data, Here are some of the scearnios being tested.
 
-**When Alpha =1 **, Linear Ridge and Lasso Model perform very close. You can refer to images/Alpha1.png to review the results. As the hypermeter value is very low, they coefficient standardizations is very low and hence they perform the same as linear regression models. Refer to images/rmse_train_vs_test_alpha1 results
+**When Alpha = 1**, Linear Ridge and Lasso Model perform very close. You can refer to images/Alpha1.png to review the results. As the hypermeter value is very low, they coefficient standardizations is very low and hence they perform the same as linear regression models. Refer to images/rmse_train_vs_test_alpha1 results
 
 **When Alpha = 20**, We can notice that Ridge and Linear perform very close however the Lasso model performs well on the Test set which is the unseen data.  Refer to images/Alpha20.png and images/ rmse_train_vs_test_alpha20 results.
 
